@@ -67,16 +67,6 @@ function lib(data)
         BackgroundColor3 = rgb(15, 15, 20)
     }, {
         instance('TextLabel', {
-            Size = udim2(0, 100, 0, 30),
-            TextColor3 = rgb(40, 40, 50),
-            Position = udim2(0.5, -50, 1, -36),
-            Text = '<i>ui made by boop71#7833 for Peace the sexy</i>',
-            RichText = true,
-            BackgroundTransparency = 1,
-            Font = 'JosefinSans',
-            TextSize = 11
-        }),
-        instance('TextLabel', {
             Position = udim2(0, 0, 0, 300),
             Size = udim2(1, 0, 0, 100),
             Text = ('<b><font color="#918bff">%s</font></b> %s'):format(data.Title, data.Subtitle),
